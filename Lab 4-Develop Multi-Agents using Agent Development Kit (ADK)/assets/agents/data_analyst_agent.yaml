@@ -4,7 +4,7 @@
 # It collaborates with SQL Translator Agent and uses SQL execution tools
 
 spec_version: v1
-name: data_analyst_agent
+name: data_analyst_agent_<YourName>
 display_name: Data Analyst Agent
 description: |
   An intelligent data analyst agent that performs comprehensive analysis on coffee sales data.

@@ -1,7 +1,7 @@
 # SQL Translator Agent Configuration
 # This agent translates natural language queries into PostgreSQL-compatible SQL statements
 spec_version: v1
-name: sql_translator_agent
+name: sql_translator_agent_<YourName>
 display_name: SQL Translator Agent
 description: |
   An intelligent agent that translates natural language questions into PostgreSQL SQL queries

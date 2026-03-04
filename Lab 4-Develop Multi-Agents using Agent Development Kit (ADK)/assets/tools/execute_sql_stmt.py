@@ -34,11 +34,11 @@ def _json_safe(obj: Any) -> Any:
     return json.loads(json.dumps(obj, default=str))
 
 
-MY_APP_ID = 'postgres-connection'
+MY_APP_ID = 'postgres-connection-<YourName>'
 POSTGRES_DB = 'watsonxdb'
 
 @tool(
-    name="execute_sql_statement",
+    name="execute_sql_statement_<YourName>",
     description=(
         "Execute a SQL SELECT statement on PostgreSQL database and return results. "
         "Only SELECT queries are allowed for security. "

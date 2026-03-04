@@ -121,7 +121,7 @@ The final user experience will be:
 3. Click **All tools**
 4. Click **Create tool** -> select **Agenic Flow**
 5. Enter flow details:
-   - **Name**: `Document Extraction Flow`
+   - **Name**: `Document Extraction Flow - <Your Name>` for example `Document Extraction Flow - LBA`
 6. Click Start Building
 
 ![Create Flow](images/01-create-flow.png)
@@ -221,7 +221,7 @@ Now that you've created the document extraction flow, let's create an agent that
 #### 5.2 Create New Agent
 
 1. Fill in the agent details:
-   - **Agent Name**: `Document Processing Agent`
+   - **Agent Name**: `Document Processing Agent - <Your Name>` for example `Document Processing Agent - LBA`
    - **Description**: `AI agent that helps users upload documents and extract promotional information`
 
 2. Click **Create**

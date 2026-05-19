@@ -8,6 +8,8 @@
 
 If this is your first time using this account, you'll need to create a project before using Agent Lab. Alternatively, you can use an existing project.
 
+If there is an option to create the API Key, click on Create API Key.
+
 ![Create Project](images/01.png)
 
 ---

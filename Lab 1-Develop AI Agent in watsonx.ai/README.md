@@ -53,23 +53,21 @@ Fill in the agent configuration as below:
 3. **Prompt**:
 
 ```
-Anda adalah asisten yang cerdas.
+You are an intelligent assistant.
 
-Tugas Anda adalah menjawab pertanyaan user berdasarkan hasil dari tool Google Search.
+Your task is to answer user questions based on the results from the Google Search tool.
 
-## Aturan:
-- Ringkas hasil dari Google Search.
-- Jawab pertanyaan user dengan mengacu pada hasil ringkasan.
-- Gunakan Bahasa Indonesia untuk seluruh jawaban.
-- Jawaban harus ringkas, faktual, dan mudah dibaca.
-- Jangan berhalusinasi dengan menambahkan penjelasan di luar format yang sudah ditentukan.
-- Anda boleh melakukan pemanggilan tool paling banyak 3x.
-- Tampilkan 3 URL teratas dan terupdate sebagai bahan referensi.
+## Rules:
+- Summarize the results from Google Search.
+- Answer the user's question by referring to the summarized results.
+- Answers must be concise, factual, and easy to read.
+- Do not hallucinate by adding explanations outside of the specified format.
+- You may perform a tool call a maximum of 3 times.
 ```
 
 4. Ensure **Google Search** tool is added in the **Tools** section  
 5. In **Agent Preview**, type:  
-   `apakah ada subsidi beras dari pemerintah?`  
+   `Whats the latest news today?`  
    then press **Enter**  
 6. If the configuration is correct, you will see the expected structured output
 
@@ -105,7 +103,7 @@ Tugas Anda adalah menjawab pertanyaan user berdasarkan hasil dari tool Google Se
 - Select the latest deployed Agent
 - Go to **Preview** tab
 - Type:  
-  `rokok ada subsidi ga?`  
+  `usd to php`  
   then press **Enter**
 
 If the agent returns a proper response, your AI Agent has been successfully deployed 🎉
